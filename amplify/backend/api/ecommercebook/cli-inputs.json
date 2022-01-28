@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "ecommercebook",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/hectoremiliovelasquez/proyectos/React/ecommerce/ecommerce/amplify/backend/api/ecommercebook/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authecommercebook2efb7f2e"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2023-01-27T23:57:59.175Z",
+        "keyDescription": "BookStoreApiKey"
+      }
+    ]
+  }
+}

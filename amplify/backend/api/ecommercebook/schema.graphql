@@ -1,0 +1,9 @@
+type Books @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  title: String!
+  description: String
+  image: String
+  author: String
+  featured: Boolean
+  price: Float
+}
